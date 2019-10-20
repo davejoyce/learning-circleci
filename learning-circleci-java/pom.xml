@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.davejoyce.learning</groupId>
+    <artifactId>learning-circleci-java</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>Learning CircleCI (Java)</name>
+    <description>Java module of a CircleCI polyglot build</description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>davejoyce</id>
+            <email>dave@osframework.org</email>
+            <roles>
+                <role>creator</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/davejoyce/learning-circleci</url>
+        <connection>https://github.com/davejoyce/learning-circleci.git</connection>
+        <developerConnection>git@github.com:davejoyce/learning-circleci.git</developerConnection>
+    </scm>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.min.version>3.2</maven.min.version>
+
+        <!-- Dependency versions (alphabetical order) -->
+
+        <!-- Plugin versions (alphabetical order) -->
+    </properties>
+</project>
